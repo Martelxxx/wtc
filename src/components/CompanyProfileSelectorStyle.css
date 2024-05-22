@@ -1,0 +1,68 @@
+body {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.industries {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: left;
+    border-radius: 20px;
+}
+.industries div {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25); 
+}
+.industry-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: left;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: left;
+}
+.industry-0 {
+    background-image: url('public/tech1bg.png');
+    background-size: cover;
+}
+.industry-1 {
+    background-image: url('public/pharmabg.png');
+    background-size: cover;
+}
+.industry-2 {
+    background-image: url('public/transportbg.png');
+    background-size: cover;
+}
+.industry-3 {
+    background-image: url('public/weaponsbg.png');
+    background-size: cover;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: left;
+}
+
